@@ -1,0 +1,23 @@
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+.mensaje{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(179, 179, 226);
+    width: 100%;
+    height: 100%;
+    border-bottom: 160px solid rgb(179, 179, 226);
+}
+
+
+.imagen svg{
+    width: 100%;
+    height: auto;
+}

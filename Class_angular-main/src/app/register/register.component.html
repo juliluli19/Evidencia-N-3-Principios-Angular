@@ -1,0 +1,13 @@
+<form  (ngSubmit)="enviar()" [formGroup]="form" class="register">
+
+    <h1>Registrar</h1>
+    <input type="text" class="caja-texto" placeholder="Nombre" formControlName="nombre">
+    <input type="text" class="caja-texto" placeholder="Celular" formControlName="celular">
+    <input type="text" class="caja-texto" placeholder="Direccion" formControlName="direccion">
+    <input type="email" class="caja-texto" placeholder="Correo" formControlName="correo">
+    <input type="password" class="caja-texto" placeholder="Contraseña" formControlName="contrasena">
+    <input type="submit" class="btnregister" value="Registrar">
+  </form>
+  
+  
+  
